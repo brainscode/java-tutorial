@@ -1,0 +1,8 @@
+allowed-tags:
+  - api_developer
+  - administrator
+  - consumer
+  - lab
+  - quiz
+  - lecture
+  - assignment

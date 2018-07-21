@@ -1,0 +1,144 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Contents
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Introduction
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /intro_java_overview.html
+      output: web, pdf
+
+    - title: History of Java
+      url: /intro_java_history.html
+      output: web, pdf
+
+    - title: Applications of Java
+      url: /intro_java_applications.html
+      output: web, pdf
+
+    - title: Features of Java
+      url: /intro_java_features.html
+      output: web, pdf
+
+    - title: Java Virtual Machine
+      url: /intro_java_virtual_machine.html
+      output: web, pdf
+
+  - title: Environment Setup
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /env_setup_overview.html
+      output: web, pdf
+
+    - title: Install JDK
+      url: /env_setup_install_jdk.html
+      output: web, pdf
+
+    - title: Install Netbeans
+      url: /env_setup_install_ide.html
+      output: web, pdf
+
+    - title: Java Path Setup
+      url: /env_setup_classpath.html
+      output: web, pdf
+
+  - title: Lab 1 - First Program
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /lab1_overview.html
+      output: web, pdf
+
+    - title: Hello World
+      url: /lab1_hello_world.html
+      output: web, pdf
+
+    - title: Basic Syntax
+      url: /lab1_basic_syntax.html
+      output: web, pdf
+
+    - title: Java Comments
+      url: /lab1_java_comments.html
+      output: web, pdf
+
+  - title: Programming Basics
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /chap1_overview.html
+      output: web, pdf
+
+    - title: Variables & Primitive Data Types
+      url: /chap1_variables.html
+      output: web, pdf
+
+    - title: Operators
+      url: /chap1_operators.html
+      output: web, pdf
+
+  - title: Control Statements
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /#.html
+      output: web, pdf
+
+    - title: Selection Statements
+      url: /#.html
+      output: web, pdf
+
+    - title: Iteration Statements
+      url: /#.html
+      output: web, pdf
+
+    - title: Jump Statements
+      url: /#.html
+      output: web, pdf
+
+  - title: Quiz
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /#.html
+      output: web, pdf
+
+    - title: Inheritance
+      url: /#.html
+      output: web, pdf
+
+    - title: Polymorphism
+      url: /#.html
+      output: web, pdf
+
+    - title: Abstraction
+      url: /#.html
+      output: web, pdf
+
+    - title: Encapsulation
+      url: /#.html
+      output: web, pdf
+
