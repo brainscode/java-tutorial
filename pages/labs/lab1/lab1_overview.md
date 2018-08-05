@@ -9,7 +9,7 @@ applies_to: [lab]
 
 ## Objective
 
-In this lab, you will create your first program and you will learn how to write a program with correct signatures and naming conventions.
+In this lab, you will create your first program and you will learn how to compile and execute the program.
 
 In the following lab, you will learn:
 
