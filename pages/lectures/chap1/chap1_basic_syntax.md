@@ -177,6 +177,9 @@ In unicode, character holds 2 byte, so Java also uses 2 byte for characters.
 - lowest value: \u0000
 - highest value: \uFFFF
 
+## Special Characters
+
+![](./images/lectures/chap1/special_characters.png)
 
 ## Continue
 
