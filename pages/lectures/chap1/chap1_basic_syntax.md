@@ -47,6 +47,12 @@ content="accessModifier returnType nameOfMethod (params or args) {
 
 **method body** − The method body contains the list of statements which has to be execute.
 
+**Example:**
+
+{% include code.html lang="java" 
+content="public void methodName (int a) { // method block start
+ 	// method body
+}// method block end" %}
 #### Calling of a Method
 
 {% include code.html lang="java" content="methodname(args); //calling method with args
@@ -63,6 +69,12 @@ A variable is data member of a class, each object has its unique set of variable
 
 {% include code.html lang="java" content="class className{
 type variableName; // data member
+}" %}
+
+**Example:**
+
+{% include code.html lang="java" content="class A{
+int a; // data member
 }" %}
 
 ## Java Identifiers

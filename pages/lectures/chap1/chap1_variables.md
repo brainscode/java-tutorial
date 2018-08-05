@@ -121,7 +121,7 @@ A variable that is declared as static is called static variable. It cannot be lo
 ### Local Variables
 
 + Local variables are declared in methods, constructors, or blocks (instance initializer block).
-+ Local variables are created when the method, constructor or block is entered and the variable will be destroyed once it exits the method, constructor, or block.
++ Local variables are created when entered in the method, constructor or block and the variable will be destroyed once exits from them.
 + Access modifiers cannot be used for local variables.
 + Local variables are implemented at stack level internally.
 + There is no default value for local variables, so local variables should be declared and an initial value should be assigned before the first use.
