@@ -3,7 +3,7 @@ title: Basic Syntax
 toc: false
 sidebar: labs_sidebar
 folder: lectures/chap1
-permalink: /lab1_basic_syntax.html
+permalink: /chap1_basic_syntax.html
 summary: The basic terms in Java programming, the valid signatures to write a program.
 applies_to: [lecture]
 ---
