@@ -105,6 +105,18 @@ Lets save the above Simple Java program file name as `Hard.java`.
 
 ![](./images/labs/lab1/othername.png)
 
+{% include code.html content="public class A {}" %}
+
+Lets save the above public A class Java program file name as `B.java`.
+
+- Now Compile the B.java
+
+{% include command.html content="$ javac B.java" %}
+
+{% include warning.html content="
+	When saving Java source file other than the class name with public class access modifier so it will gives compile time error below:<br/>
+	**error:**  class A is public, should be declared in a file named A.java public class A {}
+" %}
 
 ### Having Multiple Classes in Java source file
 
