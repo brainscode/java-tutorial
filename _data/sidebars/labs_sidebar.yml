@@ -90,7 +90,7 @@ entries:
       url: /chap1_basic_syntax.html
       output: web, pdf
 
-    - title: Variables & Primitive Data Types
+    - title: Variables & Data Types
       url: /chap1_variables.html
       output: web, pdf
 
