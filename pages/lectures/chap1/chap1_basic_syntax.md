@@ -2,7 +2,7 @@
 title: Basic Syntax
 toc: false
 sidebar: labs_sidebar
-folder: labs/lab1
+folder: lectures/chap1
 permalink: /lab1_basic_syntax.html
 summary: The basic terms in Java programming, the valid signatures to write a program.
 applies_to: [lecture]
@@ -182,4 +182,6 @@ In unicode, character holds 2 byte, so Java also uses 2 byte for characters.
 
 We will be looking into more details in the next sections.
 
-Proceed to [Lab 1 - Java Comments](lab1_java_comments.html).
+Proceed to [Chap 1 - Java Variables](chap1_variables.html).
+
+

@@ -15,8 +15,6 @@ In the following lab, you will learn:
 
 + How to create a simple Java program
 + How to execute a program and understand the code of program
-+ How to write a valid signature program
-+ How to write program with naming conventions
 + How to write comments in a program
 
 ## Continue
