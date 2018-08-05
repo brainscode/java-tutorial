@@ -97,13 +97,17 @@ Class file is loaded by JVM (which interact with OS) and converts the Bytecode i
 
 ### Saving Java source file other than the class name
 
-if the class is not public. you can save file with other name but, have to compile it by file name and execute it by class name.
+- if the class is not public
+
+You can save file with other name but, have to compile it by file name and execute it by class name.
 
 Lets save the above Simple Java program file name as `Hard.java`.
 
 - Now Compile the Hard.java
 
 ![](./images/labs/lab1/othername.png)
+
+- if the class is public
 
 {% include code.html content="public class A {}" %}
 
@@ -114,7 +118,7 @@ Lets save the above public A class Java program file name as `B.java`.
 {% include command.html content="$ javac B.java" %}
 
 {% include warning.html content="
-	When saving Java source file other than the class name with public class access modifier so it will gives compile time error below:<br/>
+	When saving Java source file with public class access modifier so it will gives compile time error below:<br/>
 	**error:**  class A is public, should be declared in a file named A.java public class A {}
 " %}
 
