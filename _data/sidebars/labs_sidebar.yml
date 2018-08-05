@@ -142,3 +142,11 @@ entries:
       url: /#.html
       output: web, pdf
 
+  - title: FAQs
+    output: web, pdf
+    folderitems:
+
+    - title: Java FAQs
+      url: /The_last_FAQs.html
+      output: web, pdf
+
