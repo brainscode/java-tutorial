@@ -49,6 +49,8 @@ It will produce .class file in `new` directory now execute the program
  java -cp $HOME/new/ Simple
 " %}
 
+**output:** `Hello World`
+
 {% include troubleshooting.html content="
 	javac is not recognized as an internal or external command<br/>
 	**Solution:** Set Proper [Path](env_setup_classpath.html)
@@ -143,5 +145,5 @@ java -cp . C" %}
 
 ## Continue
 
-Proceed to [Basic Syntax](lab1_basic_syntax.html).
+Proceed to [Lab 1 - Java Comments](lab1_java_comments.html).
 

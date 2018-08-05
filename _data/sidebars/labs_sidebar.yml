@@ -74,10 +74,6 @@ entries:
       url: /lab1_hello_world.html
       output: web, pdf
 
-    - title: Basic Syntax
-      url: /lab1_basic_syntax.html
-      output: web, pdf
-
     - title: Java Comments
       url: /lab1_java_comments.html
       output: web, pdf
@@ -88,6 +84,10 @@ entries:
 
     - title: Overview
       url: /chap1_overview.html
+      output: web, pdf
+
+    - title: Basic Syntax
+      url: /chap1_basic_syntax.html
       output: web, pdf
 
     - title: Variables & Primitive Data Types

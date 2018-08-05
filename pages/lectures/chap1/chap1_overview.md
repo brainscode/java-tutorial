@@ -1,5 +1,5 @@
 ---
-title: Basic Syntax and Class Review
+title: Basics of Programming
 toc: false
 sidebar: labs_sidebar
 folder: lectures/chap1
@@ -13,6 +13,7 @@ In this lesson, you will understand the basic syntax of **Java**.
 
 You will learn:
 
++ What is basic syntax of Java.
 + What are primitive data types and variables.
 + What are the types of operators and their precedence.
 + What is class and methods in programming.
