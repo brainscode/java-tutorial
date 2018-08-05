@@ -78,6 +78,10 @@ The goal of the operator is to decide, which value should be assigned to the var
 
 {% include code.html lang="java" content="variable x = (expression) ? value if true : value if false" %}
 
+## Java Operator Precedence
+
+![](./images/lectures/chap1/precedence.png)
+
 ## Continue
 
 Proceed to [Chap 1 - What is Method ?](chap1_methods.html).
