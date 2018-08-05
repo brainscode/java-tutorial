@@ -120,17 +120,20 @@ A variable that is declared as static is called static variable. It cannot be lo
 
 ### Local Variables
 
-+ Local variables are declared in methods, constructors, or blocks.
++ Local variables are declared in methods, constructors, or blocks (instance initializer block).
 + Local variables are created when the method, constructor or block is entered and the variable will be destroyed once it exits the method, constructor, or block.
 + Access modifiers cannot be used for local variables.
 + Local variables are implemented at stack level internally.
 + There is no default value for local variables, so local variables should be declared and an initial value should be assigned before the first use.
 
-{% include tip.html content="The constructor is a special type of method which is used to initialize the object." %}
+{% include tip.html content="The constructor is a special type of method which is used to initialize the object and Instance Initializer block is used to initialize the instance data member." %}
+
+{% include note.html content="We will learn constructor and instance initializer block in the next lectures.
+" %}
 
 ### Instance Variables
 
-+ Instance variables are declared in a class, but outside a method, constructor or any block.
++ Instance variables are declared in a class, but outside a method, constructor or blocks.
 + When a space is allocated for an object in the heap, a slot for each instance variable value is created.
 + Instance variables are created when an object is created with the use of the keyword `new` and destroyed when the object is destroyed.
 + Instance variables hold values that must be referenced by more than one method, constructor or block, or essential parts of an object's state that must be present throughout the class.
@@ -173,7 +176,7 @@ It makes your program memory efficient (i.e it saves memory).
 {% include code.html lang="java" content="class Student{ 
      int rollno; 
      String name; 
-     String college=\"ITS\";
+     String college=\"FUUAST\";
 }" %}
 
 Suppose there are 500 students in the college, now all instance data members will get memory each time when object is created. All student have its unique rollno with name so instance data member is good. But, when college refers to the common property for all objects. so we make it static, this will make space in memory only once.
