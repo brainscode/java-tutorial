@@ -97,7 +97,7 @@ Class file is loaded by JVM (which interact with OS) and converts the Bytecode i
 
 ### Saving Java source file other than the class name
 
-- if the class is not public
+**If the class is not public**
 
 You can save file with other name but, have to compile it by file name and execute it by class name.
 
@@ -107,7 +107,7 @@ Lets save the above Simple Java program file name as `Hard.java`.
 
 ![](./images/labs/lab1/othername.png)
 
-- if the class is public
+**If the class is public**
 
 {% include code.html content="public class A {}" %}
 
