@@ -98,6 +98,30 @@ entries:
       url: /chap1_operators.html
       output: web, pdf
 
+    - title: Methods
+      url: /chap1_methods.html
+      output: web, pdf
+
+    - title: Arrays
+      url: /chap1_arrays.html
+      output: web, pdf
+
+  - title: Lab 2 - Basic Programs
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /lab2_overview.html
+      output: web, pdf
+
+    - title: Java Variables
+      url: /lab2_hello_world.html
+      output: web, pdf
+
+    - title: Command Line Args
+      url: /lab2_java_comments.html
+      output: web, pdf
+
   - title: Control Statements
     output: web, pdf
     folderitems:
